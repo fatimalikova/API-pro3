@@ -1,6 +1,7 @@
 ﻿using API_pro3.Data;
 using API_pro3.Dtos.Categories;
 using API_pro3.Models;
+using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -18,20 +19,28 @@ namespace API_pro3.Controllers
                   // ===
             // return Ok("Get all categories");
 
-            var categories = context.Categories.ToList();
-            return Ok(categories);
+            var categories = context.Categories
+                .Include(c => c.Products)
+                .ToList();
+
+            var categoryDtos = mapper.Map<List<CategoryReturnDto>>(categories);
+            return Ok(categoryDtos);
         }
+
+
         [HttpGet("{id}")] // category/?id=1  -> category/1
         //feillerden istifade etmemeye calish
-
         public IActionResult Get(int id)
         {
-            var category = context.Categories.Find(id);
+            var category = context.Categories
+                .Include(c => c.Products)
+                .FirstOrDefault(c => c.Id == id);
             if (category == null)
             {
                 return NotFound();
             }
-            return Ok(category);
+            var categoryDto = mapper.Map<CategoryReturnDto>(category);
+            return Ok(categoryDto);
         }
         [HttpPost]
         public IActionResult Post(CategoryCreateDto categoryCreateDto)

@@ -9,6 +9,9 @@ namespace API_pro3.Profiles
         public MapperProfile()
         {
             CreateMap<CategoryCreateDto, Category>(); //create
+            CreateMap<Category, CategoryReturnDto>(); //read
+                //.ForMember(dest => dest.Product, opt => opt.MapFrom(src => src.Products));
+            CreateMap<Product, ProductInCategoryReturnDto>();
         }
     }
 }

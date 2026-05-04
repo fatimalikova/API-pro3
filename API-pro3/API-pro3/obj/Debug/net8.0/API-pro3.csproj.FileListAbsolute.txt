@@ -138,3 +138,10 @@ C:\Users\fmeli\OneDrive\Desktop\API-pro3\API-pro3\API-pro3\bin\Debug\net8.0\Swas
 C:\Users\fmeli\OneDrive\Desktop\API-pro3\API-pro3\API-pro3\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\fmeli\OneDrive\Desktop\API-pro3\API-pro3\API-pro3\obj\Debug\net8.0\API-pro3.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\fmeli\OneDrive\Desktop\API-pro3\API-pro3\API-pro3\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\fmeli\OneDrive\Desktop\API-pro3\API-pro3\API-pro3\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\fmeli\OneDrive\Desktop\API-pro3\API-pro3\API-pro3\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\fmeli\OneDrive\Desktop\API-pro3\API-pro3\API-pro3\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\fmeli\OneDrive\Desktop\API-pro3\API-pro3\API-pro3\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\fmeli\OneDrive\Desktop\API-pro3\API-pro3\API-pro3\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\fmeli\OneDrive\Desktop\API-pro3\API-pro3\API-pro3\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\fmeli\OneDrive\Desktop\API-pro3\API-pro3\API-pro3\obj\Debug\net8.0\API-pro3.sourcelink.json
