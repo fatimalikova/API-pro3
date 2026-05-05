@@ -16,5 +16,23 @@ namespace API_pro3.Data
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
             base.OnModelCreating(modelBuilder);
         }
+
+        public override int SaveChanges()
+        {
+            var entries = ChangeTracker.Entries<BaseEntity>();
+            foreach(var entry in entries)
+            {
+                switch(entry.State)
+                {
+                    case EntityState.Added:
+                        entry.Entity.CreateDate = DateTime.Now;
+                        break;
+                    case EntityState.Modified:
+                        entry.Entity.UpdateDate = DateTime.Now;
+                        break;
+                }
+            }
+            return base.SaveChanges();
+        }
     }
 }

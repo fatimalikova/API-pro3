@@ -1,5 +1,6 @@
 ﻿using API_pro3.Data;
 using API_pro3.Dtos.Categories;
+using API_pro3.Extentions;
 using API_pro3.Models;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
@@ -52,25 +53,23 @@ namespace API_pro3.Controllers
             //    CreateDate = DateTime.Now
             //};
             var newCategory = mapper.Map<Category>(categoryCreateDto);
+         
             context.Categories.Add(newCategory);
             context.SaveChanges();
             return Created();
         }
 
         [HttpPut("{id}")]
-        public IActionResult Put(int id, Category category)
+        public IActionResult Put(int id, CategoryUpdateDto categoryUpdateDto)
         {
-           var existCategory = context.Categories.Find(id);
-            if (existCategory == null)
-            {
-                return NotFound();
-            }
-            existCategory.Name = category.Name;
-            existCategory.Description = category.Description;
-            existCategory.UpdateDate = DateTime.Now;
+            var existCategory = context.Categories.Find(id);
+            if (existCategory == null)return NotFound();
+            mapper.Map(categoryUpdateDto, existCategory);
             context.SaveChanges();
-            return NoContent();
+            return Ok();
         }
+
+
 
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)

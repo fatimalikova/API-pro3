@@ -15,7 +15,7 @@ if(app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 // Configure the HTTP request pipeline.
-
+app.UseStaticFiles();
 app.UseAuthorization();
 
 app.MapControllers();

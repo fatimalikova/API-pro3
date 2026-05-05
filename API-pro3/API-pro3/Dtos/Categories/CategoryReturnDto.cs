@@ -6,7 +6,7 @@ namespace API_pro3.Dtos.Categories
     {
         public string Name { get; set; } = null!;
         public string Description { get; set; } = null!;
-
+        public string ImageUrl { get; set; }
         public List<ProductInCategoryReturnDto>? Products { get; set; }
     }
 
