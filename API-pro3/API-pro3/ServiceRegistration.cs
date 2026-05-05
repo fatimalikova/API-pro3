@@ -14,11 +14,12 @@ namespace API_pro3
 
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
-
+            services.AddHttpContextAccessor();
             //add this method after download automapper from nuget
             services.AddAutoMapper(opt =>
             {
-                opt.AddProfile<MapperProfile>();
+               // opt.AddProfile(new MapperProfile(services.BuildServiceProvider().GetRequiredService<IHttpContextAccessor>()));
+                    opt.AddProfile(new MapperProfile(new HttpContextAccessor()));
             });
         }
     }

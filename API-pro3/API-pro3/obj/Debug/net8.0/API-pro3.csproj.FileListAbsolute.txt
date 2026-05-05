@@ -125,7 +125,6 @@ C:\Users\fmeli\OneDrive\Desktop\API-pro3\API-pro3\API-pro3\obj\Debug\net8.0\stat
 C:\Users\fmeli\OneDrive\Desktop\API-pro3\API-pro3\API-pro3\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\fmeli\OneDrive\Desktop\API-pro3\API-pro3\API-pro3\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\fmeli\OneDrive\Desktop\API-pro3\API-pro3\API-pro3\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\fmeli\OneDrive\Desktop\API-pro3\API-pro3\API-pro3\obj\Debug\net8.0\swae.build.ex.cache
 C:\Users\fmeli\OneDrive\Desktop\API-pro3\API-pro3\API-pro3\obj\Debug\net8.0\API-pro3.csproj.Up2Date
 C:\Users\fmeli\OneDrive\Desktop\API-pro3\API-pro3\API-pro3\obj\Debug\net8.0\API-pro3.dll
 C:\Users\fmeli\OneDrive\Desktop\API-pro3\API-pro3\API-pro3\obj\Debug\net8.0\refint\API-pro3.dll
