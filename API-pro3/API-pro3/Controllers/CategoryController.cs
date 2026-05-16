@@ -44,7 +44,7 @@ namespace API_pro3.Controllers
             return Ok(categoryDto);
         }
         [HttpPost]
-        public IActionResult Post(CategoryCreateDto categoryCreateDto)
+        public IActionResult Post([FromForm]CategoryCreateDto categoryCreateDto)
         {
             //var newCategory = new Category
             //{
@@ -60,7 +60,7 @@ namespace API_pro3.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Put(int id, CategoryUpdateDto categoryUpdateDto)
+        public IActionResult Put([FromRoute]int id, [FromBody]CategoryUpdateDto categoryUpdateDto)
         {
             var existCategory = context.Categories.Find(id);
             if (existCategory == null)return NotFound();

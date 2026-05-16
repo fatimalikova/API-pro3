@@ -1,9 +1,11 @@
-﻿using PustokApp.Attributes;
+﻿using System.ComponentModel.DataAnnotations;
+using PustokApp.Attributes;
 
 namespace API_pro3.Dtos.Categories
 {
     public class CategoryCreateDto
     {
+        [MaxLength(100)]
         public string Name { get; set; } = null!;
         public string Description { get; set; } = null!;
 

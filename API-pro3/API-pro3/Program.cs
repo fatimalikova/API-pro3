@@ -16,8 +16,7 @@ if(app.Environment.IsDevelopment())
 }
 // Configure the HTTP request pipeline.
 app.UseStaticFiles();
+app.UseAuthentication();
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
