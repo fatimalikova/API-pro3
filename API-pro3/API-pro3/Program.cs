@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;
 
 
-builder.Services.AddService(config);//extention yaratdib ordan cagiririq
+builder.Services.AddServices(config);//extention yaratdib ordan cagiririq
 
 var app = builder.Build();
 if(app.Environment.IsDevelopment())

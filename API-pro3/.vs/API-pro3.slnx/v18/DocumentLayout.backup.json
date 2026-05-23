@@ -1,21 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fmeli\\OneDrive\\Desktop\\API-pro3\\API-pro3\\",
+  "WorkspaceRootPath": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|c:\\users\\fmeli\\onedrive\\desktop\\api-pro3\\api-pro3\\api-pro3\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|solutionrelative:api-pro3\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|c:\\users\\fmeli\\onedrive\\desktop\\api-pro3\\api-pro3\\api-pro3\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|c:\\users\\fatimakhm\\desktop\\api-pro3\\api-pro3\\api-pro3\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|solutionrelative:api-pro3\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|c:\\users\\fmeli\\onedrive\\desktop\\api-pro3\\api-pro3\\api-pro3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|c:\\users\\fatimakhm\\desktop\\api-pro3\\api-pro3\\api-pro3\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|solutionrelative:api-pro3\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|c:\\users\\fatimakhm\\desktop\\api-pro3\\api-pro3\\api-pro3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|solutionrelative:api-pro3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|c:\\users\\fatimakhm\\desktop\\api-pro3\\api-pro3\\api-pro3\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|solutionrelative:api-pro3\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|c:\\users\\fatimakhm\\desktop\\api-pro3\\api-pro3\\api-pro3\\dtos\\userdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|solutionrelative:api-pro3\\dtos\\userdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|c:\\users\\fatimakhm\\desktop\\api-pro3\\api-pro3\\api-pro3\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|solutionrelative:api-pro3\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|c:\\users\\fatimakhm\\desktop\\api-pro3\\api-pro3\\api-pro3\\dtos\\userdtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|solutionrelative:api-pro3\\dtos\\userdtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|c:\\users\\fatimakhm\\desktop\\api-pro3\\api-pro3\\api-pro3\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|solutionrelative:api-pro3\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|c:\\users\\fatimakhm\\desktop\\api-pro3\\api-pro3\\api-pro3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|solutionrelative:api-pro3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|c:\\users\\fmeli\\onedrive\\desktop\\api-pro3\\api-pro3\\api-pro3\\dtos\\categories\\categoryreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|c:\\users\\fatimakhm\\desktop\\api-pro3\\api-pro3\\api-pro3\\dtos\\categories\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|solutionrelative:api-pro3\\dtos\\categories\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|c:\\users\\fatimakhm\\desktop\\api-pro3\\api-pro3\\api-pro3\\dtos\\categories\\categoryreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{421733E1-3648-F181-1156-EED0D699439C}|API-pro3\\API-pro3.csproj|solutionrelative:api-pro3\\dtos\\categories\\categoryreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,79 +54,150 @@
       "DocumentGroups": [
         {
           "DockedHeight": 311,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "API-pro3\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "API-pro3\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAYwEgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T08:02:06.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "API-pro3\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\ServiceRegistration.cs",
+              "RelativeToolTip": "API-pro3\\ServiceRegistration.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T06:12:53.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Controllers\\CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "API-pro3\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "API-pro3\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAQwDcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T08:45:30.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "API-pro3\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\appsettings.Development.json",
+              "RelativeToolTip": "API-pro3\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-23T09:21:12.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Dtos\\UserDtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "API-pro3\\Dtos\\UserDtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Dtos\\UserDtos\\LoginDto.cs",
+              "RelativeToolTip": "API-pro3\\Dtos\\UserDtos\\LoginDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T08:57:49.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MapperProfile.cs",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Profiles\\MapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Profiles\\MapperProfile.cs",
               "RelativeDocumentMoniker": "API-pro3\\Profiles\\MapperProfile.cs",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Profiles\\MapperProfile.cs",
+              "ToolTip": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Profiles\\MapperProfile.cs",
               "RelativeToolTip": "API-pro3\\Profiles\\MapperProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABSAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwCIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T09:46:35.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Dtos\\UserDtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "API-pro3\\Dtos\\UserDtos\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Dtos\\UserDtos\\RegisterDto.cs",
+              "RelativeToolTip": "API-pro3\\Dtos\\UserDtos\\RegisterDto.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T08:05:58.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "API-pro3\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "API-pro3\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBEAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T07:49:16.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Program.cs",
               "RelativeDocumentMoniker": "API-pro3\\Program.cs",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Program.cs",
+              "ToolTip": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Program.cs",
               "RelativeToolTip": "API-pro3\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T10:01:56.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
+              "Title": "CategoryCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Dtos\\Categories\\CategoryCreateDto.cs",
+              "RelativeDocumentMoniker": "API-pro3\\Dtos\\Categories\\CategoryCreateDto.cs",
+              "ToolTip": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Dtos\\Categories\\CategoryCreateDto.cs",
+              "RelativeToolTip": "API-pro3\\Dtos\\Categories\\CategoryCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T06:10:20.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "CategoryReturnDto.cs",
-              "DocumentMoniker": "C:\\Users\\fmeli\\OneDrive\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Dtos\\Categories\\CategoryReturnDto.cs",
+              "DocumentMoniker": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Dtos\\Categories\\CategoryReturnDto.cs",
               "RelativeDocumentMoniker": "API-pro3\\Dtos\\Categories\\CategoryReturnDto.cs",
-              "ToolTip": "C:\\Users\\fmeli\\OneDrive\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Dtos\\Categories\\CategoryReturnDto.cs",
+              "ToolTip": "C:\\Users\\fatimakhm\\Desktop\\API-pro3\\API-pro3\\API-pro3\\Dtos\\Categories\\CategoryReturnDto.cs",
               "RelativeToolTip": "API-pro3\\Dtos\\Categories\\CategoryReturnDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T09:59:52.23Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

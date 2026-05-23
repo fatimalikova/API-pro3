@@ -1,9 +1,11 @@
 ﻿using API_pro3.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace API_pro3.Data
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<AppUser>
     {
         public DbSet<Category> Categories { get; set; } //using for crud operations
         public DbSet<Product> Products { get; set; }

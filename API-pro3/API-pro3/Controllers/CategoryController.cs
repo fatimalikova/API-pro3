@@ -3,15 +3,21 @@ using API_pro3.Dtos.Categories;
 using API_pro3.Extentions;
 using API_pro3.Models;
 using AutoMapper;
+using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 namespace API_pro3.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CategoryController(AppDbContext context, IMapper mapper) : ControllerBase
+    [Authorize]
+    public class CategoryController(AppDbContext context,
+        IValidator<CategoryCreateDto> createValidator,
+        IMapper mapper) : ControllerBase
     {
         [HttpGet]
         public IActionResult Get()
@@ -46,6 +52,15 @@ namespace API_pro3.Controllers
         [HttpPost]
         public IActionResult Post([FromForm]CategoryCreateDto categoryCreateDto)
         {
+            if(!createValidator.Validate(categoryCreateDto).IsValid)
+            {
+                return BadRequest(createValidator.Validate(categoryCreateDto).Errors.Select(error =>  new
+                {
+                    error.PropertyName,
+                    error.ErrorMessage
+
+                }));
+            }
             //var newCategory = new Category
             //{
             //    Name = categoryCreateDto.Name,
